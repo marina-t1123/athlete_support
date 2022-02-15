@@ -2,7 +2,7 @@ FROM mysql:8.0
 
 ENV MYSQL_DATABASE=athlete_support \
   MYSQL_USER=marina \
-  MYSQL_PASSWORD=okt1123.M \
+  MYSQL_PASSWORD=dnll.1031 \
   MYSQL_ROOT_PASSWORD=root \
   TZ=Asia/Tokyo
 
