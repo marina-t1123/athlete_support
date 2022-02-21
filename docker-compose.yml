@@ -17,9 +17,7 @@ services: # 各「サービス」の定義
   db: # "db"という名前で「サービス」を定義
     build: ./infra/mysql
     volumes:
-      - db-store:/var/lib/mysql
-volumes: # ボリュームの定義。コンテナが消えても保持しておきたいデータなどがある場合に定義する。
-  db-store: # db-dataというローカルボリュームを定義している。
+      - ./infra/mysql/data:/var/lib/mysql
 
 # サービス = 起動するコンテナーの設定の定義
 # イメージ = Dockerのコンテナーの元となるもの
