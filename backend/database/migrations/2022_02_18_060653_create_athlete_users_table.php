@@ -22,7 +22,6 @@ class CreateAthleteUsersTable extends Migration
             $table->string('weight');
             $table->string('event');
             $table->timestamps();
-            $table->timestamps();
         });
     }
 
